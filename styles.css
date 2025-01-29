@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: 20px;
+}
+
+.menu-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #34495e;
+}
+/* Style for the Register Button */
+.register-btn {
+    background-color: #2c3e50;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.register-btn:hover {
+    background-color: #34495e;
+}
+/* Style for Menu Items */
+.menu-item {
+    margin-bottom: 20px;
+}
+
+.menu-item h3 {
+    font-size: 20px;
+}
+
+.add-to-cart {
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.add-to-cart:hover {
+    background-color: #2ecc71;
+}
+
+/* Cart Summary Section */
+.cart-summary {
+    margin-top: 20px;
+}
+
+#place-order {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#place-order:hover {
+    background-color: #2980b9;
+}
+
